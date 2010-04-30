@@ -1,0 +1,16 @@
+GIT - PHP check
+===============
+GIT hook for PHP parse errors checking before commit. 
+
+
+INSTALLATION
+============
+To install hook, copy php_check.sh to .git/hooks/pre-commit:
+
+    $ cp php_check.sh .git/hooks/pre-commit;
+    $ chmod +x .git/hooks/pre-commit;
+
+
+AUTHOR
+======
+Remigijus Jarmalavičius <remigijus@jarmalavicius.lt>
