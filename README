@@ -2,6 +2,11 @@ GIT - PHP check
 ===============
 GIT hook for PHP parse errors checking before commit. 
 
+If you looking same thing for Mercurial DCVS, check this out:
+
+    http://www.bitbucket.org/vytux/mercurial-plugin-4-syntax-checking
+
+
 
 INSTALLATION
 ============
@@ -14,3 +19,5 @@ To install hook, copy php_check.sh to .git/hooks/pre-commit:
 AUTHOR
 ======
 Remigijus Jarmalavičius <remigijus@jarmalavicius.lt>
+
+For this idea thanks to my friend Vytautas Povilaitis <php-checker@vytux.lt>.

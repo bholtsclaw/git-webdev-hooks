@@ -1,5 +1,6 @@
 #!/bin/bash
 # Author: Remigijus Jarmalavičius <remigijus@jarmalavicius.lt> 
+# Author: Vytautas Povilaitis <php-checker@vytux.lt>
 
 ROOT_DIR="$(pwd)/"
 LIST=$(git status | grep -e '\#.*\(modified\|added\)')
