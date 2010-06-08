@@ -18,6 +18,6 @@ To install hook, copy php_check.sh to .git/hooks/pre-commit:
 
 AUTHOR
 ======
-Remigijus Jarmalavičius <remigijus@jarmalavicius.lt>
+Remigijus Jarmalavičius <remigijus (eta) jarmalavicius (dot) lt>
 
-For this idea thanks to my friend Vytautas Povilaitis <php-checker@vytux.lt>.
+For this idea thanks to my friend Vytautas Povilaitis <php-checker (eta) vytux (dot) lt>
