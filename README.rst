@@ -22,3 +22,9 @@ To install hook, copy pre-commit file to your project .git/hooks/pre-commit:
 
 Now, when you will make some modifications for code and will try to commit, GIT
 will stop you and tells where problem exist.
+
+Bugs
+----
+If you have found any bugs, please track them here:
+
+    https://github.com/ReekenX/git-php-syntax-checker/issues
