@@ -1,30 +1,19 @@
-===============
-GIT - PHP check
-===============
+===============================
+GIT Hook(s) for Web Development 
+===============================
+(NOTE: Primarily for PHP or Drupal unless others contribute to Rails, Django, or other specific hooks for the collection, I'll be happy to include them directory or as a submodule maintained separetely)
 
-:Author: Remigijus Jarmalavicius <remigijus(a)jarmalavicius.lt>
-:Thanks to: Vytautas Povilaitis <php-checker(a)vytux.lt>
-
-About
------
-GIT hook for PHP parse errors checking before commit. 
-
-If you looking same thing for Mercurial DCVS, check this out:
-
-    http://www.bitbucket.org/vytux/mercurial-plugin-4-syntax-checking
+* git pre-commit hook checking PHP syntax errors. ( Uses php version installed local, not whats on the server, please be aware of this if there is diffrences in your versions. )
 
 How to install
 --------------
 To install hook, copy pre-commit file to your project .git/hooks/pre-commit:
 
-    $ cp pre-commit .git/hooks/pre-commit;
+    $ cp pre-commit .git/hooks/pre-commit; 
     $ chmod +x .git/hooks/pre-commit;
 
-Now, when you will make some modifications for code and will try to commit, GIT
-will stop you and tells where problem exist.
+Now, when you will make modifications to the code and try to commit, git will invoke `php -l` a.k.a php-lint and will stop the commit if there are errors with location info to fix the problem.
 
-Bugs
-----
-If you have found any bugs, please track them here:
-
-    https://github.com/ReekenX/git-php-syntax-checker/issues
+Feedback
+--------
+If you have found any bugs, have a patch, or a feature request open an issue in the issue queue.
